@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+    "id": "only_vanilla_advancements",
+	"version": "${version}",
+    "name": "Only Vanilla Advancements",
+    "description": "Removes all non-vanilla advancements added by mods and datapacks. Easily configurable.",
+	"authors": [
+		"cintreck"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/cintreck",
+		"sources": "https://github.com/cintreck/only-vanilla-advancements"
+	},
+	"license": "CC0-1.0",
+    "icon": "assets/only_vanilla_advancements/icon.png",
+	"environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.codex.onlyvanadv.OnlyVanillaAdvancements"
+        ],
+        "modmenu": [
+            "com.codex.onlyvanadv.integration.ModMenuCompat"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": "${minecraft_version}"
+    },
+    "suggests": {
+        "cloth-config2": "*",
+        "modmenu": "*"
+    }
+}

@@ -1,0 +1,7 @@
+# Gradle 캐시 및 빌드 결과물 제외
+.gradle/
+build/
+
+# 마인크래프트 런타임 및 로그 제외
+run/
+logs/
